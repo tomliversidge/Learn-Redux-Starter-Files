@@ -15,6 +15,6 @@ const router = (
           <Route path="/view/:postId" component={Single}></Route>
       </Route>
   </Router>
-)
+);
 
 render(router, document.getElementById('root'));
